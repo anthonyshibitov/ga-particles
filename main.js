@@ -74,11 +74,11 @@ ctx.fillStyle = "black";
 ctx.fillRect(0, 0, width, height);
 console.log("filled");
 
-const fx = new Effect(10);
+const fx = new Effect(5);
 
 function animate() {
-  ctx.fillStyle = "black";
-  ctx.fillRect(0, 0, width, height);
+  // ctx.fillStyle = "black";
+  // ctx.fillRect(0, 0, width, height);
 
   fx.render(ctx);
   requestAnimationFrame(animate);
